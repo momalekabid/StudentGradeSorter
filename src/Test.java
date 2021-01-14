@@ -53,7 +53,7 @@ public class Test
   public static void initFile() throws IOException
 
   {
-    inFile = new FileInputStream("/Users/mabid.20/Desktop/StudentSorter/truefalse.txt");
+    inFile = new FileInputStream("/answers.txt");
     inReader = new InputStreamReader(inFile);
     reader = new BufferedReader(inReader);
 
